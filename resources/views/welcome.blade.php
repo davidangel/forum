@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Forum
+                    {{ config('app.name') }}
                 </div>
             </div>
         </div>
