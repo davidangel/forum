@@ -5,9 +5,10 @@
 // Variables
 @import "variables";
 
+
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+@import "bootswatch";
 #app {
   margin-bottom: 100px;
 }
