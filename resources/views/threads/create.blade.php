@@ -14,6 +14,14 @@
                                 <input name="title" type="text" class="form-control" id="title">
                             </div>
                             <div class="form-group">
+                                <label for="title">Channel:</label>
+                                <select name="channel_id" id="channel" class="form-control">
+                                    @foreach(\App\Channel::all() as $channel)
+                                        <option value="{{ $channel->id }}">{{ $channel->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label for="body">Body</label>
                                 <textarea name="body" type="text" class="form-control" id="body" rows="8"></textarea>
                             </div>

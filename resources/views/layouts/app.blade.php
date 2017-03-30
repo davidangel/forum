@@ -23,7 +23,7 @@
 <body>
     <div id="app">
         @include('navigation')
-
+        @include('notifications')
         @yield('content')
     </div>
 
